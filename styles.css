@@ -22,7 +22,7 @@ header {
 }
 
 .top-bar a {
-    color: #ffebcd;
+    color: #cce5ff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -62,7 +62,7 @@ header {
 .logo {
     max-width: 100%;
     height: auto;
-    border: 2px solid #ffebcd;
+    border: 2px solid #cce5ff;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.2);
@@ -78,7 +78,7 @@ header {
     padding: 0 20px;
     text-align: center;
     font-size: 1.2em;
-    color: #ffebcd;
+    color: #cce5ff;
 }
 
 header h1 {
