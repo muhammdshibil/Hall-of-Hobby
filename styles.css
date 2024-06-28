@@ -1,0 +1,202 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #007BFF, #0056b3, #007BFF);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-bar {
+    background-color: #0056b3;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.top-bar a {
+    color: #ffebcd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+}
+
+.quote-container {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.quote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+.logo-container {
+    flex: 0 0 auto;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.delivery-info {
+    flex: 1;
+    padding: 0 20px;
+    text-align: right;
+    font-size: 1.2em;
+    color: #ffebcd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+header .carved-design {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    fill: white;
+    z-index: 0;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.showcase, .contact {
+    margin-bottom: 60px;
+}
+
+.showcase h2, .contact h2 {
+    color: #007BFF;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.craft-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.craft-item {
+    background: white;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: calc(30% - 20px);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.craft-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #007BFF, #0056b3, #007BFF);
+    transition: height 0.3s;
+}
+
+.craft-item:hover::before {
+    height: 100%;
+}
+
+.craft-item img {
+    max-width: 100%;
+    display: block;
+}
+
+.craft-item p {
+    padding: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007BFF;
+}
+
+.contact label {
+    margin: 10px 0 5px;
+    color: #007BFF;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+.contact input:focus, .contact textarea:focus {
+    border-color: #007BFF;
+}
+
+.contact button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
