@@ -109,7 +109,7 @@ main {
 }
 
 .showcase h2, .contact h2 {
-    color: #007BFF;
+    color: #ff69b4;
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -125,7 +125,7 @@ main {
 
 .craft-item {
     background: white;
-    border: 2px solid #007BFF;
+    border: 2px solid #ff69b4;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -142,7 +142,7 @@ main {
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, #007BFF, #0056b3, #007BFF);
+    background: linear-gradient(90deg, #ff69b4, #ff1493, #ff69b4);
     transition: height 0.3s;
 }
 
@@ -168,12 +168,12 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border: 2px solid #007BFF;
+    border: 2px solid #ff69b4;
 }
 
 .contact label {
     margin: 10px 0 5px;
-    color: #007BFF;
+    color: #ff69b4;
 }
 
 .contact input, .contact textarea {
@@ -186,25 +186,25 @@ main {
 }
 
 .contact input:focus, .contact textarea:focus {
-    border-color: #007BFF;
+    border-color: #ff69b4;
 }
 
 .contact button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #007BFF;
+    background-color: #ff69b4;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .contact button:hover {
-    background-color: #0056b3;
+    background-color: #ff1493;
 }
 
 footer {
-    background-color: #007BFF;
+    background-color: #ff69b4;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -225,7 +225,7 @@ footer {
     }
 
     .logo {
-        height: 120px;
+        height: 150px;
     }
 
     header h1 {
@@ -243,7 +243,7 @@ footer {
 
 @media (max-width: 480px) {
     .logo {
-        height: 100px;
+        height: 180px;
     }
 
     header h1 {
